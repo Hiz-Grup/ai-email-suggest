@@ -1,5 +1,5 @@
 {
-    "name": "sfolador/ai-email-suggest",
+    "name": "hiz-grup/ai-email-suggest",
     "description": "This package helps user to fix typos in email addresses by using openai api to suggest a valid email address.",
     "keywords": [
         "sfolador",
@@ -18,15 +18,15 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "illuminate/contracts": "^10.0",
+        "php": "^8.1|^8.3",
+        "illuminate/contracts": "^10.0|^11.0",
         "openai-php/client": "^0.3.0",
         "spatie/laravel-package-tools": "^1.14.0",
         "spatie/ray": "^1.37"
     },
     "require-dev": {
         "laravel/pint": "^1.4.1",
-        "nunomaduro/collision": "^7.0.0",
+        "nunomaduro/collision": "^7.0.0|^8.1",
         "nunomaduro/larastan": "^2.4",
         "orchestra/testbench": "^8.0",
         "pestphp/pest": "^2.0.0",
